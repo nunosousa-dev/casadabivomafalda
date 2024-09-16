@@ -1,1 +1,591 @@
-HELLO WORLD
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <!-- TITLE -->
+    <title>Casa da Bivó Mafalda</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="images/favicon.png"/>
+
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,300,500,600%7cMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS LIBRARY -->
+    <link rel="stylesheet" type="text/css" href="css/lib/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/font-lotusicon.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/settings.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap-select.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+</head>
+
+<!--[if IE 7]>
+<body class="ie7 lt-ie8 lt-ie9 lt-ie10"> <![endif]-->
+<!--[if IE 8]>
+<body class="ie8 lt-ie9 lt-ie10"> <![endif]-->
+<!--[if IE 9]>
+<body class="ie9 lt-ie10"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body> <!--<![endif]-->
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <span class="preloader-dot"></span>
+</div>
+<!-- END / PRELOADER -->
+
+<!-- PAGE WRAP -->
+<div id="page-wrap">
+
+    <!-- HEADER -->
+    <header id="header" class="header-v2">
+
+        <!-- HEADER LOGO & MENU -->
+        <div class="header_content" id="header_content">
+
+            <div class="container">
+                <!-- HEADER LOGO -->
+                <div class="header_logo">
+                    <a href="/"><img src="images/logo-header.png" alt=""></a>
+                </div>
+                <!-- END / HEADER LOGO -->
+
+                <!-- HEADER MENU -->
+                <nav class="header_menu">
+                    <ul class="menu">
+                        <li>
+                            <a href="/">Início</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Descobrir <span class="fa fa-caret-down"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="descobrir/historia-da-casa.html">História da Casa</a></li>
+                                <li><a href="descobrir/pontos-turisticos.html">Pontos Turísticos</a></li>
+                                <li><a href="descobrir/percursos-pedestres.html">Percursos Pedestres</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="galeria.html">Galeria</a>
+                        </li>
+                        <li>
+                            <a href="precos.html">Preços</a>
+                        </li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </nav>
+                <!-- END / HEADER MENU -->
+
+                <!-- MENU BAR -->
+                <span class="menu-bars">
+                        <span></span>
+                    </span>
+                <!-- END / MENU BAR -->
+
+            </div>
+        </div>
+        <!-- END / HEADER LOGO & MENU -->
+
+    </header>
+    <!-- END / HEADER -->
+
+    <!-- BANNER SLIDER -->
+    <section class="section-slider">
+        <h1 class="element-invisible">Slider</h1>
+        <div id="slider-revolution">
+            <ul>
+                <li data-transition="fade">
+                    <img src="images/slider/slide0.jpg" data-bgposition="left center" data-duration="1500" data-bgpositionend="right center"
+                         alt="">
+                </li>
+                <li data-transition="fade">
+                    <img src="images/slider/slide1.jpg" data-bgposition="left center" data-duration="500" data-bgpositionend="right center"
+                         alt="">
+                </li>
+                <li data-transition="slideInLeft">
+                    <img src="images/slider/slide2.jpg" data-bgposition="left center" data-duration="500" data-bgpositionend="right center"
+                         alt="">
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- END / BANNER SLIDER -->
+
+    <!-- CHECK AVAILABILITY -->
+    <section class="section-check-availability">
+        <!-- <div class="container">
+            <div class="check-availability">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2>VERIFICAR DISPONIBILIDADE</h2>
+                    </div>
+                    <div class="col-lg-9">
+                        <form id="ajax-form-search-room" action="search_step_2.php" method="post">
+                            <div class="availability-form">
+                                <input type="text" name="arrive" class="awe-calendar from" placeholder="Data Entrada">
+                                <input type="text" name="departure" class="awe-calendar to" placeholder="Data Saída">
+                                <input type="text" name="email_avail" placeholder="Insira o seu email" class="input-text">
+
+                                <div class="vailability-submit">
+                                    <button class="awe-btn awe-btn-13">ENVIAR PEDIDO</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- END / CHECK AVAILABILITY -->
+
+    <!-- ABOUT -->
+    <section class="section-home-about bg-white">
+        <div class="container">
+            <div class="home-about">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="img">
+                            <a href="#"><img src="images/home/about/img-1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text">
+                            <h2 class="heading">SOBRE A CASA</h2>
+                            <span class="box-border"></span>
+                            <p>A bisavó Mafalda Margarida legou na actual proprietária não só o nome mas também a casa que perpetua a sua
+                                memória.<br/>Esta casa, propriedade dos bisavôs maternos, foi objecto de, pelo menos, dois grandes projectos
+                                de recuperação, um em 1930 e outro na década de cinquenta. Recentemente foi alvo de nova recuperação e
+                                ampliação tendo como objectivo a criação de uma instituição de Turismo Rural.</p>
+                            <a href="/descobrir/historia-da-casa.html" class="awe-btn awe-btn-default">SABER MAIS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END / ABOUT -->
+
+    <!-- OUR BEST -->
+    <section class="section-our-best bg-white">
+        <div class="container">
+
+            <div class="our-best">
+                <div class="row">
+
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="img">
+                            <img src="images/home/ourbest/img-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-md-pull-6 ">
+                        <div class="text">
+                            <h2 class="heading">COMODIDADES</h2>
+                            <span class="box-border"></span>
+                            <p>Na Casa da Bivó Mafalda pode relaxar com todas as comodidades que a casa lhe oferece, com garagem para quatro
+                                carros, internet wireless e aquecimento central para as noites mais frias.</p>
+                            <ul>
+                                <li><img src="images/home/ourbest/icon-3.png" alt="icon">Aquecimento Central</li>
+                                <li><img src="images/home/ourbest/icon-2.png" alt="icon">Piscina</li>
+                                <li><img src="images/home/ourbest/icon-4.png" alt="icon">Garagem</li>
+                                <li><img src="images/home/ourbest/icon-5.png" alt="icon">WC Privativo</li>
+                                <li><img src="images/home/ourbest/icon-1.png" alt="icon">Internet Wifi</li>
+                                <li><img src="images/home/ourbest/icon-6.png" alt="icon">Animais Domésticos *</li>
+                            </ul>
+                        </div>
+                        * sob consulta
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END / OUR BEST -->
+
+    <!-- HOME GUEST BOOK -->
+    <div class="section-home-guestbook awe-parallax bg-13">
+        <div class="container">
+            <div class="home-guestbook">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="guestbook-content owl-single">
+
+                            <!-- ITEM -->
+                            <div class="guestbook-item">
+                                <div class="img">
+                                    <img src="images/avatar/bel-flag.jpg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <p>A house all for us with a marvellous swimming pool.</p>
+                                    <span><strong>Alex</strong></span><br>
+                                    <span>Bélgica</span>
+                                </div>
+                            </div>
+                            <!-- ITEM -->
+
+                            <!-- ITEM -->
+                            <div class="guestbook-item">
+                                <div class="img">
+                                    <img src="images/avatar/pt-flag.jpg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <p>Um fim de semana fantástico, uma casa encantadora e uma paisagem deslumbrante. Os pequenos almoços
+                                        foram saborosíssimos e sentido-nos sempre como se fosse a nossa casa. Esperamos voltar um dia.</p>
+                                    <span><strong>Diana Silva</strong></span><br>
+                                    <span>Viana do Castelo, Portugal</span>
+                                </div>
+                            </div>
+                            <!-- ITEM -->
+
+                            <!-- ITEM -->
+                            <div class="guestbook-item">
+                                <div class="img">
+                                    <img src="images/avatar/pt-flag.jpg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <p>Adorámos este fim de semana. Lindas paisagens, boa alimentação, uma casa maravilhosa com um serviço
+                                        de excelência.</p>
+                                    <span><strong>Ricardo e Silvia</strong></span><br>
+                                    <span>Viseu, Portugal</span>
+                                </div>
+                            </div>
+                            <!-- ITEM -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- END / HOME GUEST BOOK -->
+
+    <!-- GALLERY -->
+    <section class="section-gallery bg-white">
+
+        <div class="gallery  no-padding">
+            <h2 class="heading text-center">GALERIA</h2>
+
+            <!-- FILTER -->
+            <div class="gallery-cat text-center">
+                <ul class="list-inline">
+                    <li class="active"><a href="#" data-filter="*">Todas</a></li>
+                    <li><a href="#" data-filter=".exterior">EXTERIOR</a></li>
+                    <li><a href="#" data-filter=".piscina">PISCINA</a></li>
+                    <li><a href="#" data-filter=".quartos">QUARTOS </a></li>
+                    <li><a href="#" data-filter=".cozinha">COZINHA</a></li>
+                    <li><a href="#" data-filter=".salas">SALAS</a></li>
+                    <li><a href="#" data-filter=".adega">ADEGA</a></li>
+                </ul>
+            </div>
+            <!-- END / FILTER -->
+
+            <!-- GALLERY CONTENT -->
+            <div class="gallery-content hover-img">
+                <div class="row">
+                    <div class="gallery-isotope col-6 pd-0">
+
+                        <!-- ITEM SIZE -->
+                        <div class="item-size"></div>
+                        <!-- END / ITEM SIZE -->
+                        <!-- ITEM -->
+
+                        <div class="item-isotope exterior piscina">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image">
+                                    <img src="images/gallery/img-1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope exterior piscina">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-2.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope ground bathroom dining">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-3.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-3.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope suite dining">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-4.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-4.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope exterior">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-5.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope exterior">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-6.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-6.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope exterior">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-7.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-7.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope exterior piscina">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-8.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-8.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope bathroom suite dining">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-9.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-9.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope ground bathroom">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-10.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-10.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope ground bathroom suite ">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-11.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-11.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                        <!-- ITEM -->
+                        <div class="item-isotope ground bathroom">
+                            <div class="gallery_item">
+                                <a href="images/gallery/popup/img-12.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                    <img src="images/gallery/img-12.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END / ITEM -->
+
+                    </div>
+                </div>
+
+                <div class="our-gallery text-center">
+                    <a href="/galeria.html" class="awe-btn awe-btn-default">VER MAIS FOTOS</a>
+                </div>
+
+            </div>
+            <!-- GALLERY CONTENT -->
+
+        </div>
+    </section>
+    <!-- END / GALLERY -->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+
+        <!-- FOOTER TOP -->
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+
+                    <!-- WIDGET MAILCHIMP -->
+                    <div class="col-lg-9">
+                        <div class="mailchimp">
+                            <h4>RECEBER OFERTAS</h4>
+                            <div class="mailchimp-form">
+                                <form action="#" method="POST">
+                                    <input type="text" name="email" placeholder="Insira o seu endereço de email" class="input-text">
+                                    <button class="awe-btn">REGISTAR</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END / WIDGET MAILCHIMP -->
+
+                    <!-- WIDGET SOCIAL -->
+                    <div class="col-lg-3">
+                        <div class="social">
+                            <div class="social-content">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END / WIDGET SOCIAL -->
+
+                </div>
+            </div>
+        </div>
+        <!-- END / FOOTER TOP -->
+
+        <!-- FOOTER CENTER -->
+        <div class="footer_center">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xs-12 col-lg-5">
+                        <div class="widget widget_logo">
+                            <div class="widget-logo">
+                                <div class="img">
+                                    <a href="#"><img src="images/logo-footer.png" alt=""></a>
+                                </div>
+                                <div class="text">
+                                    <p><i class="lotus-icon-location"></i> Av. Central, Pinheiros, Portugal</p>
+                                    <p><i class="lotus-icon-phone"></i> 933 530 715 / 916 565 232 / 925 099 827</p>
+                                    <p><i class="fa fa-envelope-o"></i> <a href="mailto:casadabivomafalda@gmail.com">casadabivomafalda@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 col-lg-2">
+                        <div class="widget">
+                            <h4 class="widget-title">LINKS</h4>
+                            <ul>
+                                <li><a href="/galeria.html">Galeria</a></li>
+                                <li><a href="/precos.html">Preços</a></li>
+                                <li><a href="/contactos.html">Contactos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 col-lg-2">
+                        <div class="widget">
+                            <h4 class="widget-title">A CASA</h4>
+                            <ul>
+                                <li><a href="/descobrir/historia-da-casa.html">História da Casa</a></li>
+                                <li><a href="/descobrir/pontos-turisticos.html">Pontos Turísticos</a></li>
+                                <li><a href="/descobrir/percursos-pedestres.html">Percursos Pedestres</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 col-lg-3">
+                        <div class="widget widget_tripadvisor">
+                            <h4 class="widget-title">Tripadvisor</h4>
+                            <div class="tripadvisor">
+                                <p>Brevemente disponível</p>
+                                <img src="images/tripadvisor.png" alt="">
+                                <span class="tripadvisor-circle">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i class="part"></i>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- END / FOOTER CENTER -->
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer_bottom">
+            <div class="container">
+                <p>&copy;
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                    Casa da Bivó Mafalda by <a href="https://loadinnovation.com" target="_blank" style="color: #6b6b6b;">Load Innovation</a>
+                </p>
+            </div>
+        </div>
+        <!-- END / FOOTER BOTTOM -->
+
+    </footer>
+    <!-- END / FOOTER -->
+
+</div>
+<!-- END / PAGE WRAP -->
+
+
+<!-- LOAD JQUERY -->
+<script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/lib/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/lib/owl.carousel.js"></script>
+<script type="text/javascript" src="js/lib/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.countTo.js"></script>
+<script type="text/javascript" src="js/lib/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/lib/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/lib/SmoothScroll.js"></script>
+<!-- validate -->
+<script type="text/javascript" src="js/lib/jquery.form.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.validate.min.js"></script>
+<!-- Custom jQuery -->
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
